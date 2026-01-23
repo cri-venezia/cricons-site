@@ -7,8 +7,9 @@ const activeTab = ref('vue')
 const frameworks = [
   { id: 'vue', name: 'Vue.js', icon: Layers, status: 'Ready' },
   { id: 'react', name: 'React', icon: Code, status: 'Ready' },
-  { id: 'rn', name: 'React Native', icon: Smartphone, status: 'In Research' },
-  { id: 'svg', name: 'Raw SVG', icon: Box, status: 'Ready' }
+  { id: 'rn', name: 'React Native', icon: Smartphone, status: 'Ready' },
+  { id: 'svg', name: 'Raw SVG', icon: Box, status: 'Ready' },
+  { id: 'cdn', name: 'CDN / Webfonts', icon: Box, status: 'Ready' }
 ]
 </script>
 
@@ -92,18 +93,28 @@ const frameworks = [
       </div>
 
       <!-- React Native -->
-      <div v-if="activeTab === 'rn'" class="space-y-6 text-center py-10">
-          <div class="w-16 h-16 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto text-purple-400 mb-4">
-            <Smartphone :size="32" />
-         </div>
-         <h2 class="text-2xl font-bold text-white">Native Mobile Support</h2>
-         <p class="text-slate-400 max-w-lg mx-auto">
-            Support for React Native (via react-native-svg) is being researched.
-            We plan to export a compatible component library soon.
-         </p>
-         <div class="bg-purple-500/10 border border-purple-500/20 text-purple-400 p-4 rounded-xl inline-block text-sm">
-            🧪 Status: <strong>Research Phase</strong>
-         </div>
+      <div v-if="activeTab === 'rn'" class="space-y-8">
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-4">Installation</h2>
+          <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
+             <code class="text-pink-400 font-mono">npm install cricons react-native-svg</code>
+          </div>
+        </div>
+
+        <div>
+           <h2 class="text-2xl font-bold text-white mb-4">Usage</h2>
+           <p class="text-slate-400 mb-2">Import from the Native submodule.</p>
+           <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
+             <pre class="text-sm font-mono text-slate-300">
+<span class="text-pink-400">import</span> { <span class="text-blue-400">BloodFilled</span> } <span class="text-pink-400">from</span> <span class="text-green-400">'cricons/native'</span>
+
+<span class="text-pink-400">export default</span> <span class="text-blue-400">function</span> <span class="text-yellow-400">App</span>() {
+  <span class="text-pink-400">return</span> (
+    <span class="text-blue-300">&lt;BloodFilled <span class="text-purple-300">width</span>={32} <span class="text-purple-300">height</span>={32} <span class="text-purple-300">color</span>="red" /&gt;</span>
+  )
+}</pre>
+           </div>
+        </div>
       </div>
 
       <!-- Raw SVG -->
@@ -111,8 +122,29 @@ const frameworks = [
          <h2 class="text-2xl font-bold text-white mb-4">Raw SVG Use</h2>
          <p class="text-slate-400">
             You can download individual SVGs from the <router-link to="/" class="text-blue-400 hover:underline">Gallery</router-link>.
-            Currently there is no CDN, but you can copy the raw SVG code directly from the modal.
+            Or use them directly via our CDN:
          </p>
+         <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
+             <code class="text-green-400 font-mono text-sm break-all">https://cricons-cdn.ahdcreative.workers.dev/icons/v1/filled/blood.svg</code>
+         </div>
+      </div>
+
+      <!-- CDN / Webfonts -->
+      <div v-if="activeTab === 'cdn'" class="space-y-8">
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-4">Webfonts</h2>
+          <p class="text-slate-400 mb-4">Include the CSS file in your head.</p>
+          <div class="bg-black/50 p-4 rounded-xl border border-slate-800 mb-6">
+             <code class="text-green-400 font-mono text-sm break-all">
+                &lt;link rel="stylesheet" href="https://cricons-cdn.ahdcreative.workers.dev/webfonts/cricons.css" /&gt;
+             </code>
+          </div>
+          
+          <h3 class="text-xl font-bold text-white mb-4">Usage</h3>
+          <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
+             <code class="text-blue-300 font-mono">&lt;i class="ci ci-blood-filled"&gt;&lt;/i&gt;</code>
+          </div>
+        </div>
       </div>
 
     </div>

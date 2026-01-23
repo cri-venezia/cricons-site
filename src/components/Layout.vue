@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CodeXml } from 'lucide-vue-next';
+import { CodeXml, Grid, BookOpen, Home as HomeIcon } from 'lucide-vue-next';
 </script>
 
 <template>
@@ -22,8 +22,15 @@ import { CodeXml } from 'lucide-vue-next';
       </div>
 
       <div class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-400 mx-4">
-        <router-link to="/" class="hover:text-white transition-colors" active-class="text-white">Icone</router-link>
-        <router-link to="/how-to" class="hover:text-white transition-colors" active-class="text-white">Guida</router-link>
+        <router-link to="/" class="flex items-center gap-2 hover:text-white transition-colors" active-class="text-white">
+          <HomeIcon :size="18" /> Home
+        </router-link>
+        <router-link to="/gallery" class="flex items-center gap-2 hover:text-white transition-colors" active-class="text-white">
+          <Grid :size="18" /> Galleria
+        </router-link>
+        <router-link to="/how-to" class="flex items-center gap-2 hover:text-white transition-colors" active-class="text-white">
+          <BookOpen :size="18" /> Guida
+        </router-link>
         <a href="https://github.com/cri-venezia/cricons" target="_blank" class="hover:text-white transition-colors"><CodeXml /></a>
       </div>
     </nav>

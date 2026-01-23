@@ -1,9 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import Gallery from './views/Gallery.vue'
 import Home from './views/Home.vue'
 import HowTo from './views/HowTo.vue'
 
 const routes = [
     { path: '/', component: Home },
+    { path: '/gallery', component: Gallery },
     { path: '/how-to', component: HowTo }
 ]
 

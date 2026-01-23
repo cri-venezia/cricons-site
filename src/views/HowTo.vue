@@ -45,11 +45,12 @@ const frameworks = [
     <div class="bg-slate-900/50 border border-slate-700/50 rounded-2xl p-8 min-h-[400px]">
       
       <!-- Vue -->
+      <!-- Vue -->
       <div v-if="activeTab === 'vue'" class="space-y-8">
         <div>
           <h2 class="text-2xl font-bold text-white mb-4">Installazione</h2>
           <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
-             <code class="text-pink-400 font-mono">npm install cricons</code>
+             <code class="text-pink-400 font-mono">npm install cricons-vue</code>
           </div>
         </div>
 
@@ -58,7 +59,7 @@ const frameworks = [
           <p class="text-slate-400 mb-2">Importa i componenti direttamente nella tua app Vue.</p>
           <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
              <pre class="text-sm font-mono text-slate-300">
-<span class="text-pink-400">import</span> { <span class="text-blue-400">BloodFilled</span> } <span class="text-pink-400">from</span> <span class="text-green-400">'cricons'</span>
+<span class="text-pink-400">import</span> { <span class="text-blue-400">BloodFilled</span> } <span class="text-pink-400">from</span> <span class="text-green-400">'cricons-vue'</span>
 
 <span class="text-slate-500">&lt;!-- Pattern: Nome + Variante --&gt;</span>
 <span class="text-blue-300">&lt;BloodFilled /&gt;</span>
@@ -76,7 +77,7 @@ const frameworks = [
               <code class="text-sm font-mono text-slate-300">
                 <span class="text-purple-400">import</span> { createApp } <span class="text-purple-400">from</span> 'vue'<br/>
                 <span class="text-purple-400">import</span> App <span class="text-purple-400">from</span> './App.vue'<br/>
-                <span class="text-purple-400">import</span> { createCricons, BloodFilled, HeartOutline } <span class="text-purple-400">from</span> 'cricons'<br/><br/>
+                <span class="text-purple-400">import</span> { createCricons, BloodFilled, HeartOutline } <span class="text-purple-400">from</span> 'cricons-vue'<br/><br/>
                 
                 <span class="text-slate-500">// Registra solo le icone che usi davvero</span><br/>
                 <span class="text-purple-400">const</span> cricons = <span class="text-blue-400">createCricons</span>({<br/>
@@ -97,16 +98,16 @@ const frameworks = [
         <div>
           <h2 class="text-2xl font-bold text-white mb-4">Installazione</h2>
           <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
-             <code class="text-pink-400 font-mono">npm install cricons</code>
+             <code class="text-pink-400 font-mono">npm install cricons-react</code>
           </div>
         </div>
 
         <div>
            <h2 class="text-2xl font-bold text-white mb-4">Utilizzo</h2>
-           <p class="text-slate-400 mb-2">Importa dal sottomodulo React.</p>
+           <p class="text-slate-400 mb-2">Importa dal pacchetto React.</p>
            <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
              <pre class="text-sm font-mono text-slate-300">
-<span class="text-pink-400">import</span> { <span class="text-blue-400">BloodFilled</span> } <span class="text-pink-400">from</span> <span class="text-green-400">'cricons/react'</span>
+<span class="text-pink-400">import</span> { <span class="text-blue-400">BloodFilled</span> } <span class="text-pink-400">from</span> <span class="text-green-400">'cricons-react'</span>
 
 <span class="text-pink-400">export default</span> <span class="text-blue-400">function</span> <span class="text-yellow-400">App</span>() {
   <span class="text-pink-400">return</span> (
@@ -122,16 +123,16 @@ const frameworks = [
         <div>
           <h2 class="text-2xl font-bold text-white mb-4">Installazione</h2>
           <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
-             <code class="text-pink-400 font-mono">npm install cricons react-native-svg</code>
+             <code class="text-pink-400 font-mono">npm install cricons-native react-native-svg</code>
           </div>
         </div>
 
         <div>
            <h2 class="text-2xl font-bold text-white mb-4">Utilizzo</h2>
-           <p class="text-slate-400 mb-2">Importa dal sottomodulo Native.</p>
+           <p class="text-slate-400 mb-2">Importa dal pacchetto Native.</p>
            <div class="bg-black/50 p-4 rounded-xl border border-slate-800">
              <pre class="text-sm font-mono text-slate-300">
-<span class="text-pink-400">import</span> { <span class="text-blue-400">BloodFilled</span> } <span class="text-pink-400">from</span> <span class="text-green-400">'cricons/native'</span>
+<span class="text-pink-400">import</span> { <span class="text-blue-400">BloodFilled</span> } <span class="text-pink-400">from</span> <span class="text-green-400">'cricons-native'</span>
 
 <span class="text-pink-400">export default</span> <span class="text-blue-400">function</span> <span class="text-yellow-400">App</span>() {
   <span class="text-pink-400">return</span> (

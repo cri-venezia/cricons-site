@@ -1,0 +1,11 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em"><path fill="currentColor" d="M13 5a1 1 0 1 0-2 0v4.586l-2.207 2.207a1 1 0 1 0 1.414 1.414L12 11.414l1.793 1.793a1 1 0 0 0 1.414-1.414L13 9.586z"/><path fill="currentColor" d="M8 8.862V9a1 1 0 0 0 2 0v-.138a2.458 2.458 0 0 0-4.794-.761l-2.848 8.733c-.6 1.84 1.03 3.635 2.92 3.215l2.764-.614A2.5 2.5 0 0 0 10 17v-1.5a1 1 0 1 0-2 0v1.502a.5.5 0 0 1-.391.48l-2.765.615a.5.5 0 0 1-.584-.643L7.107 8.72A.458.458 0 0 1 8 8.862M15.958 19.435A2.5 2.5 0 0 1 14 17v-1.5a1 1 0 1 1 2 0v1.502a.5.5 0 0 0 .392.48l2.764.615a.5.5 0 0 0 .584-.643L16.893 8.72a.458.458 0 0 0-.893.141V9a1 1 0 1 1-2 0v-.138a2.458 2.458 0 0 1 4.794-.761l2.848 8.733c.6 1.84-1.03 3.635-2.92 3.215z"/></svg>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'LungsOutline24'
+});
+</script>

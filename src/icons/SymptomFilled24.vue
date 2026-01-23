@@ -1,0 +1,11 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em"><path fill="currentColor" d="M12 7a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5M6.343 17.657l-.001-.002A8 8 0 0 1 8 5.072L7 3.34a10 10 0 0 0-4.914 7.355 10 10 0 0 0 2.843 8.376zM17.659 17.655l-.002.002 1.414 1.414a10 10 0 0 0 2.843-8.376 10 10 0 0 0-4.913-7.355L16 5.072a8 8 0 0 1 1.659 12.583"/><path fill="currentColor" fill-rule="evenodd" d="M7.268 8a2 2 0 0 1 3.464 0H17a1 1 0 1 1 0 2h-1.208A2.496 2.496 0 0 1 15 13v1.59l2.226 5.544a1.153 1.153 0 0 1-1.977 1.142l-3.267-4.162-.497.634a2 2 0 0 1-1.274 1.622l-1.495 1.906a1.153 1.153 0 0 1-1.977-1.142l.837-2.086a2 2 0 0 1 .913-2.274L9 14.5V11a2 2 0 0 1-1.732-1H7a1 1 0 1 1 0-2zM9 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m4.5 2.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-4 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2" clip-rule="evenodd"/></svg>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'SymptomFilled24'
+});
+</script>

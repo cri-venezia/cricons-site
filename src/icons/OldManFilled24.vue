@@ -1,0 +1,11 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em"><path fill="currentColor" d="M13 4.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/><path fill="currentColor" fill-rule="evenodd" d="M16.196 12.48a1 1 0 0 1-1.177-.784c-.17-.85-.629-1.227-1.23-1.442a3 3 0 0 0-.289-.088V20.93a1.071 1.071 0 0 1-2.131.151L10.643 16h-.286l-.726 5.08A1.071 1.071 0 0 1 7.5 20.93V15a3.5 3.5 0 1 1 0-7H12v.002c.702.01 1.617.067 2.461.369 1.149.41 2.19 1.283 2.52 2.933a1 1 0 0 1-.785 1.177M7.5 10a1.5 1.5 0 0 0 0 3z" clip-rule="evenodd"/><path fill="currentColor" d="M17 14.4c0-.223.087-.365.213-.466a.9.9 0 0 1 .537-.184c.187 0 .392.067.537.184a.56.56 0 0 1 .213.466V21a.75.75 0 0 0 1.5 0v-6.6c0-.71-.32-1.269-.771-1.634a2.4 2.4 0 0 0-1.479-.516c-.5 0-1.045.166-1.479.516A2.06 2.06 0 0 0 15.5 14.4a.75.75 0 0 0 1.5 0"/></svg>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'OldManFilled24'
+});
+</script>

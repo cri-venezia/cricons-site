@@ -1,0 +1,11 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em"><path fill="currentColor" fill-rule="evenodd" d="M9 6.55a.45.45 0 0 0-.45.45v4a.45.45 0 0 0 .45.45h1.719c.805 0 1.481-.636 1.481-1.45 0-.391-.156-.742-.408-1 .252-.258.408-.609.408-1 0-.814-.676-1.45-1.481-1.45zM11.3 8c0 .29-.247.55-.581.55H9.45v-1.1h1.269c.334 0 .581.26.581.55m-.581 1.45H9.45v1.1h1.269c.334 0 .581-.26.581-.55s-.247-.55-.581-.55" clip-rule="evenodd"/><path fill="currentColor" d="M12.75 9a.5.5 0 0 1 .5-.5h.5V8a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-.5v.5a.5.5 0 0 1-1 0v-.5h-.5a.5.5 0 0 1-.5-.5"/><path fill="currentColor" fill-rule="evenodd" d="M5 17.015V5.164c0-1.096.895-1.985 2-1.985h3l.566-.578a2.01 2.01 0 0 1 2.868 0L14 3.18h3c1.105 0 2 .889 2 1.985v11.851A1.99 1.99 0 0 1 17 19h-2v1h-2v2h-2v-2H9v-1H7c-1.105 0-2-.889-2-1.985M12.571 4.58a2 2 0 0 0 1.429.6h3v7.419c-.936-.434-2.206-.615-3.605.175-.953.538-1.957.744-3.162.816a31 31 0 0 1-1.964.032l-.281-.002q-.478-.004-.988-.003V5.179h3a2 2 0 0 0 1.429-.6L11.995 4 12 4h.005z" clip-rule="evenodd"/></svg>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'BloodBPFilled24'
+});
+</script>

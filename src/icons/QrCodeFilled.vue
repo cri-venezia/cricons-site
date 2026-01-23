@@ -1,0 +1,11 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" width="1em" height="1em"><path fill="currentColor" d="M6 9a3 3 0 0 1 3-3h6v2H9a1 1 0 0 0-1 1v6H6zM13 15a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zM14 28a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1zM14 26a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/><path fill="currentColor" d="M15 23a1 1 0 1 1-2 0 1 1 0 0 1 2 0M15 23a1 1 0 1 1 2 0 1 1 0 0 1-2 0M18 26a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/><path fill="currentColor" d="M20 24a1 1 0 1 1 0 2 1 1 0 0 1 0-2M20 24a1 1 0 1 1 0-2 1 1 0 0 1 0 2M24 26a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/><path fill="currentColor" d="M25 27a1 1 0 1 0-2 0 1 1 0 1 0-1 1 1 1 0 1 0 0 2 1 1 0 0 0 0-2 1 1 0 0 0 1-1 1 1 0 1 0 2 0M25 27a1 1 0 1 1 2 0 1 1 0 0 1-2 0M25 23a1 1 0 1 1-2 0 1 1 0 0 1 2 0M25 23a1 1 0 1 1 2 0 1 1 0 0 1-2 0"/><path fill="currentColor" d="M24 20a1 1 0 1 1 0 2 1 1 0 0 1 0-2M24 18a1 1 0 1 0-1-1 1 1 0 0 0-1-1 1 1 0 1 0 0-2 1 1 0 0 0 0 2 1 1 0 1 0 1 1 1 1 0 0 0 1 1"/><path fill="currentColor" d="M24 18a1 1 0 1 1 0 2 1 1 0 0 1 0-2M23 21a1 1 0 1 1-2 0 1 1 0 0 1 2 0M24 32a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/><path fill="currentColor" d="M23 33a1 1 0 1 1 2 0 1 1 0 0 1-2 0M23 33a1 1 0 1 1-2 0 1 1 0 0 1 2 0M25 31a1 1 0 1 1 2 0 1 1 0 0 1-2 0M27 25a1 1 0 1 0 2 0 1 1 0 0 0-2 0M30 24a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/><path fill="currentColor" d="M32 24a1 1 0 1 1 0-2 1 1 0 0 1 0 2M32 24a1 1 0 1 1 0 2 1 1 0 0 1 0-2M30 34a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/><path fill="currentColor" d="M31 33a1 1 0 1 1 2 0 1 1 0 0 1-2 0M28 30a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/><path fill="currentColor" d="M30 30a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/><path fill="currentColor" d="M31 29a1 1 0 1 1 2 0 1 1 0 0 1-2 0M27 15a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zM6 39a3 3 0 0 0 3 3h6v-2H9a1 1 0 0 1-1-1v-6H6zM42 9a3 3 0 0 0-3-3h-6v2h6a1 1 0 0 1 1 1v6h2zM42 39a3 3 0 0 1-3 3h-6v-2h6a1 1 0 0 0 1-1v-6h2z"/></svg>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'QrCodeFilled'
+});
+</script>

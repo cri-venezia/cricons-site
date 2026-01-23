@@ -1,0 +1,11 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em"><path fill="currentColor" fill-rule="evenodd" d="m15.818 3.848 1.002-1.001 4.315 4.315-1.022 1.022A1 1 0 1 1 18.896 9.4l-2.143 2.143a3.05 3.05 0 0 1-3.61.527l-3.77 3.77a2 2 0 0 1-1.595 3.311q.086.237.087.502a1.5 1.5 0 0 1-2.915.498l-.085.002a2 2 0 1 1 1.113-3.662 2 2 0 0 1 1.96-1.337l.012-.012 4.09-4.09a3.05 3.05 0 0 1 .398-3.824l2.123-2.122a1 1 0 1 1 1.257-1.258m1.002 1.827 1.486 1.487-2.967 2.967a1.051 1.051 0 0 1-1.487-1.487zM8.365 17.153a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-3.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" clip-rule="evenodd"/><path fill="currentColor" d="M18.27 3.59a1 1 0 0 1 1.415 0l.707.707a1 1 0 0 1 0 1.414l-.354.354-2.121-2.121z"/></svg>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'BiopsyFilled24'
+});
+</script>

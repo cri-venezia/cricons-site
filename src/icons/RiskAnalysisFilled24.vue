@@ -1,0 +1,11 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em"><path fill="currentColor" fill-rule="evenodd" d="M11.445 4.265a.5.5 0 0 0-.87 0L2.06 19.253a.5.5 0 0 0 .434.747h17.032a.5.5 0 0 0 .435-.747l-2.27-3.995a4.216 4.216 0 0 1-3.83-6.742zM10.25 11.25a.75.75 0 0 1 1.5 0v2.5a.75.75 0 0 1-1.5 0zm1.5 4.25V17h-1.5v-1.5z" clip-rule="evenodd"/><path fill="currentColor" fill-rule="evenodd" d="M14.414 9.49A3.2 3.2 0 0 0 14 11.07a3.212 3.212 0 0 0 4.746 2.83l1.955 1.954 1.3-1.3-1.956-1.955a3.216 3.216 0 0 0-5.631-3.109m4.18 1.58a1.378 1.378 0 1 1-2.756 0 1.378 1.378 0 0 1 2.756 0" clip-rule="evenodd"/></svg>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'RiskAnalysisFilled24'
+});
+</script>

@@ -1,0 +1,11 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em"><path fill="currentColor" d="M12 6q-.825 0-1.412-.588A1.93 1.93 0 0 1 10 4q0-.824.588-1.412A1.93 1.93 0 0 1 12 2q.825 0 1.412.587Q14 3.176 14 4q0 .824-.588 1.412A1.93 1.93 0 0 1 12 6M8.317 10.733 5.05 14l-1.4-1.4 4.525-4.525q.525-.525 1.175-.8T10.75 7h2.5q.75 0 1.4.275t1.175.8L20.35 12.6l-1.4 1.4-3.267-3.267a16 16 0 0 1 .173 6.704L15 22h-2v-5h-2v5H9l-.856-4.563a16 16 0 0 1 .173-6.704"/></svg>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'OverweightOutline24'
+});
+</script>

@@ -157,7 +157,7 @@ const frameworks = [
           <p class="text-slate-400 mb-4">Includi il file CSS nell'head del tuo progetto.</p>
           <div class="bg-black/50 p-4 rounded-xl border border-slate-800 mb-6">
              <code class="text-green-400 font-mono text-sm break-all">
-                &lt;link rel="stylesheet" href="https://cricons.crivenezia.it/webfonts/cricons.css" /&gt;
+                &lt;link rel="stylesheet" href="https://cricons-cdn.art3k.org/webfonts/cricons.css" /&gt;
              </code>
           </div>
           

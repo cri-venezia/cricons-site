@@ -76,7 +76,7 @@ import { ArrowRight, Zap, Layers, Globe } from 'lucide-vue-next'
         <h2 class="text-3xl font-bold text-white mb-4">Pronto a iniziare?</h2>
         <p class="text-slate-400 mb-8">Installa la libreria via npm o usa il CDN. È gratis e open source.</p>
         <div class="bg-black/50 p-4 rounded-xl border border-slate-800 inline-block text-left mx-auto">
-             <code class="text-pink-400 font-mono">npm install cricons</code>
+             <code class="text-pink-400 font-mono">npm install @criven/cricons</code>
         </div>
       </div>
     </section>
